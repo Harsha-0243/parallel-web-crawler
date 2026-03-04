@@ -1,0 +1,45 @@
+{
+  "seedUrls": [
+    "https://en.wikipedia.org/wiki/Java_(programming_language)"
+  ],
+  "maxDepth": 1,
+  "parallelism": 2,
+  "timeoutMs": 6000,
+  "topN": 15,
+  "resultPath": "output/crawl_result.json",
+  "ignoredUrls": [
+    "Special:", "Talk:", "User:", "File:", "Help:",
+    "Wikipedia:", "Category:", "Portal:", "Template:",
+    "action=edit", "action=history", "oldid=", "redlink=1",
+    "login", "logout", "signup",
+    "mailto:", "javascript:", "tel:",
+    ".pdf", ".jpg", ".jpeg", ".png", ".gif", ".svg",
+    ".zip", ".exe", ".mp4", ".mp3",
+    "List_of_", "Comparison_of_", "Outline_of_",
+    "#",
+    "cite_ref", "cite_note",
+    "BookSources", "CITEREFBloch"
+  ],
+  "ignoredWords": [
+    "the", "and", "for", "are", "but", "not", "you", "all",
+    "can", "had", "her", "was", "one", "our", "out", "day",
+    "get", "has", "him", "his", "how", "man", "new", "now",
+    "old", "see", "two", "way", "who", "its", "let", "put",
+    "say", "she", "too", "use", "that", "this", "with",
+    "have", "from", "they", "will", "been", "more", "when",
+    "also", "into", "than", "then", "some", "what", "which",
+    "their", "there", "about", "would", "other", "after",
+    "first", "well", "being", "used", "each", "were",
+    "such", "same", "most", "over", "even", "between",
+    "archived", "retrieved", "original", "cite",
+    "isbn", "doi", "http", "https", "www",
+    "january", "february", "march", "april", "june",
+    "july", "august", "september", "october", "november", "december",
+    "may", "main", "wikipedia", "ytt", "println",
+    "int", "void", "args", "string", "public", "static",
+    "class", "system", "null", "true", "false", "new",
+    "return", "import", "package","edit", "view", "history", "talk", "page", "source",
+	"search", "navigation", "menu", "tools", "section",
+	"article", "content", "text", "hide", "show"
+  ]
+}

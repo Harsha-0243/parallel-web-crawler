@@ -1,0 +1,22 @@
+# Maven compiled output
+target/
+
+# Output folder (generated at runtime)
+output/
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+.factorypath
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
